@@ -1,5 +1,6 @@
 package xadrez.application;
 
+import xadrez.boardgame.Board;
 import xadrez.boardgame.Position;
 
 /**
@@ -8,8 +9,11 @@ import xadrez.boardgame.Position;
 public class Program {
 
    public static void main(String[] args) {
-      Position pos = new Position(3, 5);
-      System.out.println(pos);
+  
+      Board board = new Board(8, 8);
+
+      // aula para assistir 159 
+
    }
    
 }
